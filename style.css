@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+}
+
+body {
+	position: relative;
+}
+
+.logo {
+	width: 272;
+	height: 92;
+	position: relative;
+	top: 200px;
+	left: 460px;
+}
+
+.search_form input {
+	position: relative;
+	top: 240px;
+	left: 360px;
+	border: 1px solid #1112;
+	border-radius: 2px;
+	cursor: text;
+	width: 500px;
+	height: 40px;
+	box-shadow: 2px 2px 0px 0px rgb(172, 176, 183);
+	padding-left: 15px;
+}
+
+.nav {
+	list-style-type: none;
+	float: right;
+}
+
+.nav ul, li {
+	display: inline;
+	margin: 5px;
+}
+
+#apps_logo {
+	height: 30px;
+	width: 30px;
+	margin-left: 5px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.nav button {
+	background-color: #4285f4;
+	color: #fff;
+	padding: 7px;
+	border: 0;
+}
+
+#sign_in {
+	cursor: pointer;
+}
+
+.search_button button {
+	position: relative;
+	top: 275px;
+	left: 465px;
+	border: 1px solid #f5f5f5;
+	padding: 10px;
+	cursor: pointer;
+	font-weight: bold;
+	color: #757575;
+	margin: 2px;
+}
+
+#country {
+	position: relative;
+	top: 500px;
+	width: 100%;
+	border: 1px solid #f2f2f2;
+	padding: 10px;
+	background-color: #e4e4e4;
+	color: rgb(102, 102, 102);
+	font-size: small;
+}
+
+#footer-left {
+	position: relative;
+	top: 510px;
+	width: 100%;
+	margin-right: 100px;
+	border: 1px solid #f2f2f2;
+	padding:10px;
+	background-color: #e4e4e4;
+	color: rgb(102, 102, 102);
+	font-size: small;
+}
+
+#footer-right {
+	float: right;
+	width: 100%;
+	margin-left: 100px;
+	position: relative;
+	top: 483px;
+	left: 970px;
+	padding: 10px;
+	border: 1px solid #f2f2f2;
+	background-color: #e4e4e4;
+	color: rgb(102, 102, 102);
+}
