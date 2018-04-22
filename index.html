@@ -1,45 +1,45 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link href="./style.css" rel="stylesheet" type="text/css">
-    <title>Google</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-  	<div class="nav">
-  		<ul>
-  			<li><a href="https://www.gmail.com">Gmail</a></li>
-  			<li><a href="https://www.google.co.nz/imghp?hl=en&tab=wi">Images</a></li>
-  			<img id="apps_logo" src="./images/apps_logo.png" alt="Apps logo">
-  			<li><button id="sign_in">Sign in</button></li>
+<html lang="en">
+<head>
+  <title>Google</title>
+  <link href="./reset.css" rel="stylesheet" type="text/css">
+  <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   	<div>
+  		<ul class="navbar">
+  			<li><a href="#">Gmail</a></li>
+  			<li><a href="#">Images</a></li>
+  			<li><a href="#"><img src="./images/apps_logo.png"></a></li>
+  			<li><input class="button" type="submit" value="Sign in"></li>
   		</ul>
+  	<div class=main-content id="main">
+  	<div class="main-logo">
+  	  <img class="logo" src="./images/google_logo.png" alt="Google logo">
   	</div>
-  	<div class="logo">
-      <img src="./images/google_logo.png" alt="Google logo">
-    </div>
-    <div class="search_form">
-    	<form>
-    	<input type="text" value="">
-        </form>
-    </div>
-    <div class="search_button">
-    	<form>
-    		<button>Google Search</button>
-    		<button>I'm Feeling Lucky</button>
-    	</form>
-    </div>
-    <footer>
-    	<div id="country">New Zealand</div>
-    	<span id="footer-left">
-    		<a href="#">Advertising</a>
-    		<a href="#">Business</a>
-    		<a href="#">About</a>
-    	</span>
-    	<span id="footer-right">
-    		<a href="#">Privacy</a>
-    		<a href="#">Terms</a>
-    		<a href="#">Settings</a>
-    	</span>
-  	</footer>
-  </body>
+  		<div class="search-bar">
+  			<form>
+  				<input type="text" value="">
+  			</form>
+  		</div>
+  		<div class="search-buttons">
+  			<input type="submit" value="Google Search">
+  			<input type="submit" value="I'm Feeling Lucky">
+  		</div>
+  	<div class="footer">
+  		<div class="footer-left">
+  			<ul>
+  				<li><a href="#">Advertising</a></li>
+  				<li><a href="#">Business</a></li>
+  				<li><a href="#">About</a></li>
+  			</ul>
+  		</div>
+  		<div class="footer-right">
+  			<ul>
+  				<li><a href="#">Privacy</a></li>
+  				<li><a href="#">Terms</a></li>
+  				<li><a href="#">Settings</a></li>
+  			</ul>
+  		</div>
+</body>
 </html>
