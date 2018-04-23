@@ -105,3 +105,38 @@ a:hover {
 	border-bottom: 2px solid #CACACA;
 	background-color: #F5F5F5;
 }
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #f2f2f2;
+	bottom: 1px;
+	border-top: 1px solid #e4e4e4;
+}
+
+.footer-left {
+	display: block;
+	float: left;
+	width: 48%;
+}
+
+.footer-right {
+	display: block;
+	text-align: right;
+}
+
+.footer-left ul li, .footer-right ul li {
+	display: inline-block;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	color: #666;
+}
+
+.footer-left ul li {
+	padding-left: 30px;
+}
+
+.footer-right ul li {
+	padding-right: 30px;
+}
